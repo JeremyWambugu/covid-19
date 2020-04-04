@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Poppins", sans-serif;
+}
+.nav {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: space-between;
+    padding-top: 20px;
+    
+}
+.header{
+    width: 90%;
+    margin: auto;
+}
+.main-heading {
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.main-heading:hover {
+	color: purple;
+}
+.nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.nav ul li {
+	list-style: none;
+	font-size: 15px;
+	text-align: center;
+}
+.nav ul li:hover {
+	text-decoration: underline;
+	color: purple;
+}
+/* header */
+.intro-statement {
+	min-height: 30vh;
+	padding-top: 50px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 18px;
+	padding-bottom: 50px;
+}
+/* form */
+.country-name {
+	font-weight: 400;
+	font-size: 40px;
+}
+form {
+	text-align: center;
+}
+form label {
+	display: block;
+	padding-bottom: 16px;
+	font-size: 20px;
+	/* text-decoration: underline; */
+}
+form input {
+	/* border-radius: 20px; */
+	border: none;
+	border-bottom: 1px solid rgba(255, 0, 0, 0.507);
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+form input::placeholder {
+	text-align: center;
+}
+button {
+	display: block;
+	text-align: center;
+	margin: auto;
+	padding: 13px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+	width: 150px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	background: #fe4a49;
+}
+button:hover {
+	background: purple;
+}
+/* cards */
+.country-name{
+    text-align: center;
+}
+.card {
+	border-radius: 25px;
+	width: 85%;
+	margin: auto;
+	text-align: center;
+}
+.cases-card {
+	border: 0.5px solid #cec7c7;
+	padding-bottom: 20px;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    visibility: hidden;
+}
+.death-card {
+	border: 1px solid #cec7c7;
+}
+h2 {
+	padding-top: 5px;
+}
+h3 {
+	font-weight: 500;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
